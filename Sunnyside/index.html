@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
     <title>Sunnyside</title>
 </head>
 <body>
@@ -15,70 +18,67 @@
                 <img src="./asset/icons/logo.svg" alt="Sunnyside">
             </div>
             <div class="nav-header">
-                <nav class="containerNav-header">
+             <!--    <nav class="containerNav-header">
                     <ul>
                         <li class="items"> <a href="">About</a></li>
                         <li class="items"><a href="">Services</a></li>
                         <li class="items"><a href="">Projects</a></li>
                     </ul>
                 </nav>
-                <button class="containerNav-header__button">CONTANC</button>
+                <button class="containerNav-header__button">CONTANC</button> -->
             </div>
         </div>    
         <h1 class="header__title">WE ARE CREATIVES</h1>
     </header>
- <!--    <main>
+    <main>
         <section class="section-services">
-            <div class="containerOne">
-                <h2 class="containerOne-title">Transform your brand</h2>
-                <p  class="containerOne-information">
+            <div class="egg-container"></div>
+            <div class="transform-container">
+                <h2 class="transform--title">Transform your brand</h2>
+                <p  class="transform--information">
                     We are a full-service creative agency specializing in helping brands grow fast. Engage your clientes through compelling visuals that do most of the marketing for you.
                 </p>
-                <span>LEARN MORE</span>
+                <button class="transform--button"> <a href="">LEARN MORE</a></button>
             </div>
-            <div class="containerTwo"></div>
-            <div class="containerThree"></div>
-            <div class="containerFour">
+            <div class="cupPink-container"></div>
+            <div class="stand-container">
                 <h2 
-                class="containerFour-title">
+                class="stand--title">
                     Stand out to the right audience
                 </h2>
-                <p class="containerFour-information">
+                <p class="stand--information">
                     Using a colaborative formula of designers, researchers, photografhers, videographers, and copywriters, we'll build and extend ypur brand in digital places.
                 </p>
-                <span>LEARN MORE</span>
+                <button class="stand--button"><a href="">LEARN MORE</a></button>
             </div>
-            <div class="containerFive">
-                <img class="containerFive-img" src="" alt="cerezas">
+            <div class="graphic-container">
                 <h3 
-                class="containerFive-title">
+                class="graphic-container--title">
                     Graphic Design
                 </h3>
                 <p 
-                class="containerFive-information">
+                class="graphic-container--information">
                     Great desing makes you memorable. We deliver artwork that underscore ypur brand message and capture potencial clients'attention.
                 </p>
             </div>
-            <div class="containerSix">
-                <img class="containerSix-img" src="" alt="">
+            <div class="photography-container">
                 <h3 
-                class="containerSix-title">
+                class="photography-container--title">
                     Photography
                 </h3>
                 <p 
-                class="containerSix-information">
+                class="photography-container--information">
                     Increase your credibility by gettibg the most stunning, high-quality photos that improve your business image.
                 </p>
             </div>
         </section>
         <section class="testimonials-section">
-            <h4 
-            class="testimonials-title">
+            <h4>
                 CLIENT TESTIMONIALS
             </h4>
-            <div class="testimonials-container1">
+            <div class="card-testimonials">
                 <img 
-                class="testimonials-Img" src="" alt="emily"
+                class="testimonials-Img" src="./asset/ImgsTestimonials/emily.jpg" alt="emily"
                 >
                 <p class="testimonials-Information">
                     We put our trust in Sunnyside and they deliverred, making sure our needs were met and deadlines were always hit.
@@ -88,9 +88,9 @@
                 </h3>
                 <span>Marketing Director</span>
             </div>
-            <div class="testimonials-container2">
+            <div class="card-testimonials">
                 <img 
-                class="testimonials-Img" src="" alt="thomas"
+                class="testimonials-Img" src="./asset/ImgsTestimonials/thomas.jpg" alt="thomas"
                 >
                 <p class="testimonials-Information">
                     Sunnyside's enthusiasm coupled with their keen interest in pur brand's success made ir a satisfying and enjoyable experience.
@@ -100,9 +100,9 @@
                 </h3>
                 <span>Chief Operating Officer</span>
             </div>
-            <div class="testimonials-container3">
+            <div class="card-testimonials">
                 <img 
-                class="testimonials-Img" src="" alt="jennie"
+                class="testimonials-Img" src="./asset/ImgsTestimonials/jennie.jpg" alt="jennie"
                 >
                 <p class="testimonials-Information">
                     Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
@@ -112,23 +112,27 @@
                 </h3>
                 <span>Bussiness Owner</span>
             </div>
-        </section class="fourthSection">
-        <section class="imagesSection">
-            <div>
-                <img src="" alt="bottles">
+        </section>
+        <section class="imagesSection">    
+            <div class="card-images" id="milkbottles">
+                <img class="images" src="./asset/ImgsMovil/gallery-milkbottles.jpg" alt="bottles">
             </div>
-            <div>
-                <img src="" alt="orangePlate">
+            <div class="card-images" id="orange">
+                <img class="images" src="./asset/ImgsMovil/gallery-orange.jpg" alt="orangePlate">
             </div>
-            <div>
-                <img src="" alt="cockiesCone">
+            <div class="card-images" id="cone">
+                <img class="images"  src="./asset/ImgsMovil/gallery-cone.jpg" alt="cockiesCone">
             </div>
-            <div>
-                <img src="" alt="cubes">
+            <div class="card-images" id="sugarcubes">
+                <img class="images" src="./asset/ImgsMovil/gallery-sugar-cubes.jpg" alt="cubes">
             </div>
+<!--             <div class="card-images--milkbottles" id="milkbottles">jjhklhl</div>
+            <div class="card-images--orange" id="orange">ghfghf</div>
+            <div class="card-images--cone" id="cone">fhhhhhhhhf</div>
+            <div class="card-images--sugarcubes" id="sugarcubes">fhfff</div> -->
         </section>
     </main>
-    <footer>
+<!--     <footer>
         <div class="logoFooter">
             <img src="" alt="sunnyside">
         </div>

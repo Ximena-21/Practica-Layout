@@ -1,0 +1,224 @@
+.section-services{
+    display: flex;
+    flex-direction: column;
+}
+
+.egg-container{
+    width: 100%;
+    min-width: 288px;
+    height: 300px;
+    background-image: url(./asset/ImgsMovil/image-transform.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transform-container, .stand-container{
+    width: 100%;
+    min-width: 288px;
+    height: 350px;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.transform--title, .stand--title{
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.transform--information, .stand--information{
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-family: 'Barlow';
+    line-height: 21px;
+    color: var(--dark-grayishBlue);
+}
+
+button{
+    background: none;
+    border: none;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    text-shadow: 2px #dd8d8d;
+
+}
+
+.transform--button a, .stand--button a{
+    text-decoration: none;
+    color: black;
+}
+
+.cupPink-container{
+    width: 100%;
+    min-width: 288px;
+    height: 300px;
+    background-image: url(./asset/ImgsMovil/image-stand-out.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.graphic-container{
+    width: 100%;
+    min-width: 288px;
+    height: 530px;
+    background-image: url(./asset/ImgsMovil/graphic-design.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 370px 25px 0;
+}
+
+.graphic-container--title{
+    padding-bottom: 20px;
+    color: var(--dark-desaturated);
+    font-weight: 900;
+}
+
+.graphic-container--information{
+    font-size: 13px;
+    font-family: 'Barlow';
+    line-height: 21px;
+    color: var(--dark-moderate);
+}
+
+
+.photography-container{
+    width: 100%;
+    min-width: 288px;
+    height: 530px;
+    background-image: url(./asset/ImgsMovil/image-photography.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 370px 25px 0;
+}
+
+.photography-container--title{
+    padding-bottom: 20px;
+    color: var(--very-darkBlue);
+    font-weight: 900;
+}
+
+.photography-container--information{
+    font-size: 13px;
+    font-family: 'Barlow';
+    line-height: 21px;
+    color: var(--dark-blue);
+}
+
+.testimonials-section{
+    display: flex;
+    width: 100%;
+    min-width: 288px;
+    padding: 50px 20px 20px;
+    align-content: center;
+    flex-direction: column;
+}
+
+.testimonials-section h4{
+    padding-bottom: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 12px;
+    font-weight: 900;
+    color: var(--grayish-blue);
+
+}
+
+.card-testimonials{
+    width: 100%;
+    min-width: 288px;
+    height: 280px;
+    padding: 25px 8px;
+    align-content: center;
+    text-align: center;
+}
+
+.card-testimonials img{
+    width: 60px;
+    border-radius: 60px;
+}
+ /* se me descorda el texto */
+.card-testimonials p{
+    padding-top: 25px;
+    font-family: 'Barlow';
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--veryDark-grayishBlue);
+}
+
+.card-testimonials h3{
+    padding-top: 25px;
+    font-weight: 900;
+}
+
+.card-testimonials span{
+    padding-top: 20px;;
+    font-family: 'Barlow';
+    font-size: 12px;
+    color: var(--grayish-blue);
+}
+
+
+.imagesSection{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    min-width: 288px;;
+}
+.imagesSection .card-images{
+    width: 50%;
+}
+.card-images .images{
+    width: 100%;
+}
+
+
+/* .imagesSection{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    min-width: 288px;
+    height: 400px;
+    border: #dd8d8d 2px solid;
+}
+
+.card-images--milkbottles{
+    width: 100%;
+    min-width: 288px;
+    height: 100px;
+    border: black dotted 1px;
+    background-image: url(./asset/ImgsMovil/gallery-milkbottles.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-images--orange{
+    width: 100%;
+    min-width: 288px;
+    background-image: url(./asset/ImgsMovil/gallery-orange.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-images--cone{
+    width: 100%;
+    min-width: 288px;
+    background-image: url(./asset/ImgsMovil/gallery-cone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-images--sugarcubes{
+    width: 100%;
+    min-width: 288px;
+    background-image: url(./asset/ImgsMovil/gallery-sugar-cubes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
